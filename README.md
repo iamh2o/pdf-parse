@@ -1,5 +1,10 @@
 # pdf-parse
 
+## ALERT - This Applies 2 Changes Only
+1. Change default branch from `master` to `main`.
+_and_
+2. Change `index.js` line number 6 to `let isDebugMode = false;`, which then allows the bug with `test/data/05-versions-space.pdf` missing to be patched.
+
 **Pure javascript cross-platform module to extract texts from PDFs.**
 
 [![version](https://img.shields.io/npm/v/pdf-parse.svg)](https://www.npmjs.org/package/pdf-parse)
